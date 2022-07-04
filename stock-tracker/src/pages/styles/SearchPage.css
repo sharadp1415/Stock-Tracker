@@ -1,0 +1,85 @@
+/* Search Page Styles */
+
+/* Overall */
+.SearchPage {
+  --search-height: 3rem;
+  text-align: center;
+  padding-top: 1em;
+}
+
+/* Search Bar */
+.SearchBar {
+  position: relative;
+  margin: 1em auto 2em;
+  display: flex;
+  max-height: var(--search-height);
+  border: 1px solid var(--dark-primary, black);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.SearchBar button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  min-height: var(--search-height);
+  min-width: var(--search-height);
+  cursor: pointer;
+}
+.SearchBar input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.SearchBar img {
+  background-color: blueviolet;
+  padding: 0.5rem;
+  margin-left: auto;
+}
+
+/* Stocks Container */
+.StockList {
+  border: 1px solid var(--dark-primary, black);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: 60vh;
+}
+.stock {
+  display: flex;
+  padding: 1rem;
+  transition: opacity 100ms;
+  cursor: pointer;
+  border-bottom: 1px solid var(--dark-primary, black);
+}
+.stock:hover {
+  opacity: 0.7;
+  --hovered-or-normal: var(--accent, firebrick);
+}
+.stock img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--dark-primary, black);
+  margin-right: 2em;
+}
+.stock-text {
+  width: 100%;
+}
+.top {
+  display: flex;
+  align-items: baseline;
+}
+.top h3,
+.stock-desc {
+  text-align: left;
+  margin-right: auto;
+}
+.top {
+  color: var(--hovered-or-normal);
+}
+.stock-desc {
+  margin-top: 0.5rem;
+}
+.stock-price::before {
+  content: '$';
+}

@@ -1,0 +1,23 @@
+/* Since layout is imported after landing page, all styles 
+   and css variables from Layout.css continue to exist */
+
+/* Layout Specific Styles */
+.header {
+  background-color: var(--white);
+}
+.header > .container {
+  padding: 1em 0;
+  min-height: max-content;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  margin: 0 auto;
+}
+.back-button {
+  padding: 1em 1em;
+  background: transparent;
+  border: none;
+}

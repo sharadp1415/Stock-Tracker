@@ -1,0 +1,19 @@
+/* Since App.css is imported before this is used,
+   Everything from App.css is technically pre-pended to this doc */
+
+/* Landing Page Styles */
+.main-container, .slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-title, .slogan {
+  text-align: center;
+}
+.main-title {
+  font-family: 'Roboto Slab', serif;
+  margin: 0 0 0.5em 0;
+}
+.slogan {
+  margin-bottom: auto;
+}

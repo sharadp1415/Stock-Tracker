@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
+
+/* Global Styles for the App */
+
+/* CSS Reset */
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Variables for Color Palette */
+:root {
+  --dark-primary: #3D3B8E;
+  --dark-secondary: #6883BA;
+  --white: #f9f9f9;
+  --accent: #E072A4;
+  --accent-secondary: #B0E298;
+}
+
+/* General Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button, input, select, a {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.container {
+  --max-width: 60rem;
+  --padding: 2rem;
+  width: min(100% - var(--padding), var(--max-width));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.wide-container {
+  min-height: 100vh;
+  width: clamp(250px, 80vw, 700px);
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+/* Color Styles */
+.dark-primary-bg {
+  background-color: var(--dark-primary);
+}
+.dark-secondary-bg {
+  background-color: var(--dark-secondary);
+}
+.white-bg {
+  background-color: var(--white);
+}
+.accent-bg {
+  background-color: var(--accent);
+}
+.accent-secondary-bg {
+  background-color: var(--accent-secondary);
+}
+.dark-primary-text {
+  color: var(--dark-primary);
+}
+.dark-secondary-text {
+  color: var(--dark-secondary);
+}
+.white-text {
+  color: var(--white);
+}
+.accent-text {
+  color: var(--accent);
+}
+.accent-secondary-text {
+  color: var(--accent-secondary);
+}
+
+/* Button Styles */
+.large-rounded-btn {
+  margin: 0.5em 0;
+  padding: 1em 2.5em;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: opacity 150ms;
+}
+
+.large-rounded-btn:hover {
+  opacity: 0.7;
+}
+
+/* Text Styles */
+.huge-text {
+  font-size: 6rem;
+}
+.big-text {
+  font-size: 4rem;
+}
+.large-text {
+  font-size: 2rem;
+}
+.small-text {
+  font-size: 0.75rem;
+}
+.micro-text {
+  font-size: 0.5rem;
+}

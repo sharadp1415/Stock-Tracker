@@ -1,0 +1,72 @@
+
+
+
+Pandemic
+- 03/2020 - present
+
+
+Trump
+01/2017 - 03/2020
+
+03/2020 - 01/2021
+
+Biden
+01/2021 - present 
+
+01/2009 - 01/2017
+
+
+
+Ukraine War
+02/2022 - present 
+
+09/11/2001 - 12/2010
+
+03/2014-03/2015
+
+
+Middle Eastern Conflict
+- Afghanistan 
+    - 9/2001 - 09/2004
+- Iraq  
+    - 09/2003 - 09/2009
+
+
+Republican
+ - Bush Jr (2001-2009)
+- Trump  (2017-2021)
+- Reagan (1980-1992)
+
+Democrats:
+Clinton: (1992-2001)
+Obama: (2009-2017)
+Biden (2021-present)
+
+
+Recession caused by real estate 
+2007-2012
+
+
+
+Elon Musk buys twitter
+Last Friday to Monday, percentage increase. 
+
+
+
+General 
+Train on all. 
+
+
+
+Note:
+
+Use earnings data as well
+
+
+Also deal with stock and their relevance to the filter (Tesla shouldn't have an Afghanistan invasion filter)
+
+Movement based on a decision tree:
+- define probability p to move up or down
+- Use some metric to determine movement
+	- use various parameters to determine
+	- do sentiment analysis (VADER polarity here?)
